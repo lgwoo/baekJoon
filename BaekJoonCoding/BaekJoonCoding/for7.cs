@@ -16,7 +16,7 @@ namespace BaekJoonCoding
                 int x = int.Parse(k[0]);
                 int y = int.Parse(k[1]);
                 int r = x + y;
-                sb.AppendLine(("Case #"+i+": " + r));
+                sb.AppendLine(("Case #"+i+": "+ x + " + "+ y +" = " + r));
             }
             Console.WriteLine(sb);
         }
