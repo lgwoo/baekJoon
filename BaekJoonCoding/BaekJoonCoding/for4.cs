@@ -17,7 +17,7 @@ namespace BaekJoonCoding
                 int b = int.Parse(d[0]);
                 int c = int.Parse(d[1]);
                 int k = b + c;
-                stringBuilder.Append(k);
+                stringBuilder.AppendLine(k.ToString());
             }
             Console.WriteLine(stringBuilder);
 

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -9,6 +9,9 @@
     <Compile Remove="for1.cs" />
     <Compile Remove="for2.cs" />
     <Compile Remove="for3.cs" />
+    <Compile Remove="for4.cs" />
+    <Compile Remove="for5.cs" />
+    <Compile Remove="for6.cs" />
     <Compile Remove="if3.cs" />
     <Compile Remove="if4.cs" />
     <Compile Remove="if5.cs" />
@@ -16,9 +19,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="for4.cs" />
+    <None Include="for5.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="for1.cs" />
     <None Include="for2.cs" />
     <None Include="for3.cs" />
+    <None Include="for6.cs" />
     <None Include="if3.cs" />
     <None Include="if4.cs" />
     <None Include="if5.cs" />
