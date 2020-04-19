@@ -8,6 +8,7 @@
   <ItemGroup>
     <Compile Remove="for1.cs" />
     <Compile Remove="for10.cs" />
+    <Compile Remove="for11.cs" />
     <Compile Remove="for2.cs" />
     <Compile Remove="for3.cs" />
     <Compile Remove="for4.cs" />
@@ -20,10 +21,12 @@
     <Compile Remove="if4.cs" />
     <Compile Remove="if5.cs" />
     <Compile Remove="Program.cs" />
+    <Compile Remove="while1.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="for10.cs" />
+    <None Include="for11.cs" />
     <None Include="for4.cs" />
     <None Include="for5.cs" />
   </ItemGroup>
@@ -40,6 +43,7 @@
     <None Include="if4.cs" />
     <None Include="if5.cs" />
     <None Include="Program.cs" />
+    <None Include="while1.cs" />
   </ItemGroup>
 
 </Project>
